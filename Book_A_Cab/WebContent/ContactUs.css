@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+* {
+  box-sizing: border-box;
+
+}
+
+.row {
+  display: flex;
+   flex: 50%;
+  padding: 10px;
+  height: 1250px;
+  border: 2px solid;
+  margin: 10px;
+  margin-left:100px;
+  margin-top:50px;
+  width: 1150px;
+  background-color: #add8e6 ;
+}
+
+h1 {
+	margin-left: 50px;
+	
+	color:#7000FF;
+}
+p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h2{
+		margin-left: 50px;
+	color:red;
+}

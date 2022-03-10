@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+html,body{
+    margin: 0;
+}
+.Main-contain{
+    height: 100vh;
+    background: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: rgba(0,0,0, 0.20);
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    
+   }
+
+ .Enter{
+    display: flex;
+     height: 500px;
+     width: 320px;
+     margin-left: 510px;
+     margin-top: 70px;
+     background-color: #4F4F58;
+     border-radius: 20px 100px;
+     color: white;
+ }  
+ form{
+
+    margin-top: 3px;
+    margin-left: 60px;
+ }
+
+ h2{
+    font-size: 30px;
+ }
+.Enter input[type="text"] , input[type="password"]{
+    border:none;
+	   border-bottom:1px solid black;
+	   background:transparent;
+	   outline:none;
+       height:30px;
+       width: 180px;
+       color:white;
+         font-size:13px;
+         
+}
+.Enter button:hover{
+    cursor:pointer;
+    justify-content: center;
+    padding: 9px;
+    width: 190px;
+    background-color: rgb(128, 128, 255);
+
+}
+.Enter button{
+    cursor:pointer;
+    color: white;
+    padding: 8px;
+    width: 180px;
+   	background-color: rgb(128, 128, 128);
+    font-size: 18px;
+
+}
+
+::placeholder {
+    color: rgb(39, 39, 39);
+    opacity: 2; 
+    color: white;
+}
+p{
+    font-size: 17px;
+    color: white;
+}
+a{
+    font-size: 18px;
+   margin-left: 18px;
+   color: white;
+}

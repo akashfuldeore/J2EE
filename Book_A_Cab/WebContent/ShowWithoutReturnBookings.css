@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+
+.row {
+  flex: 50%;
+  height: 800px;
+  border: 2px solid; 
+  width: 1300px;
+}
+
